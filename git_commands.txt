@@ -1,0 +1,16 @@
+clear
+git status
+git add testing.py
+git status
+git rm --cached testing.py
+git status
+git add testing.py
+git status
+git commit -m "added testing file"
+git status
+rm testing.py
+git status
+git restore
+git restore testing.p
+git restore testing.py
+touch git_commands.txt
